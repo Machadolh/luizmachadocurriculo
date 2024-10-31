@@ -1,0 +1,127 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 0rem;
+}
+.capa{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.imagem_capa{
+    width:100%; 
+    margin: 0; 
+    height: 10rem;
+}
+
+.h1_curriculum{
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+.menu_horizontal{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 4rem;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    --tw-bg-opacity: 1;
+    background-color: rgb(144 176 238 / var(--tw-bg-opacity));
+}
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 12rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    --tw-bg-opacity: 1;
+    background-color: rgb(89 131 210 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(242 243 238 / var(--tw-text-opacity));
+    border-radius: 1rem;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 100ms;
+    cursor: pointer;
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border: 0px;
+}
+.navbar:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgb(68 99 158 / var(--tw-bg-opacity));
+    border-radius: 0.9rem;
+}
+img{
+    float: left;
+    margin: 10px;
+}
+.profile_imagem{
+    border-radius: 180rem;
+}
+.informacao_base{
+    position: relative;
+    padding: 10px;
+}
+.base{
+    margin:auto;
+    padding: 2rem;
+    min-height: 90vh;  
+    --tw-bg-opacity: 1;
+    background-color: rgb(89 131 210 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(242 243 238 / var(--tw-text-opacity));
+}
+a{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #0000EE;
+}
+nav.redes_sociais ul{
+    list-style-type: none;
+    margin: 0px; 
+    padding: 0px;
+}
+.img_direita{
+    position: absolute;
+    left: 68vw;
+    border-radius: 1rem;
+}
+.texto_lista{
+    max-width: 60vw;
+}
+h2{
+    font-weight: 700;
+}
+footer{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    margin:auto;
+    padding: 0.4rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(89 131 210 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(242 243 238 / var(--tw-text-opacity));
+    font-weight: 400;
+}
+footer h4{
+    margin: 0px;
+    margin-top: 0.1rem;
+    margin-right: 0.1rem;
+}
